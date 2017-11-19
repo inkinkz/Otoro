@@ -36,9 +36,9 @@ public class PayPalActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.paypal_activity);
         setRequestedOrientation (ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-        payButt = (Button) findViewById(R.id.button);
+        payButt = (Button) findViewById(R.id.paypalButt);
         payText = (TextView) findViewById(R.id.textView);
         thb = (EditText) findViewById(R.id.editText);
 
